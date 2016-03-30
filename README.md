@@ -11,3 +11,6 @@ Ideas list -
 * Configure server using .htaccess
 * Add .gitignore
 * Test each commit using Code Climate
+* Use Bower for managing dependencies
+* Footer from Github Pages **Cayman** template
+
