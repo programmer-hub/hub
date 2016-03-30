@@ -1,0 +1,25 @@
+{
+  "name": "Programmer Hub",
+  "homepage": "https://github.com/programmer-hub/hub",
+  "authors": [
+    "Divay Prakash <divayprakash3@gmail.com>"
+  ],
+  "description": "A hub for programmers",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "programmer",
+    "hub",
+    "Programmer",
+    "Hub"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
