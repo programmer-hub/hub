@@ -4,25 +4,25 @@ Project for Web UI Course SYBTech@IIITD
 
 Ideas list -
 
-* Bootstrap for frontend
+* [Bootstrap][1] for Front-end
 * Use JavaScript, JQuery
-* Basic SEO using robots.txt and sitemap.xml, registering on Google using
-[Webmaster Tools][1]
-* Test site using [YSlow][2]
-* Configure server using .htaccess
-* Add .gitignore
-* Test each commit using [Code Climate][3]
-* Use [Bower][4] for managing dependencies
-* Footer from Github Pages [Cayman][6] template
-* Use [Initializr][7] for initial setup of `html` -
+* Basic SEO using `robots.txt` and `sitemap.xml` files, registering on Google
+using [Webmaster Tools][2]
+* Test site using [YSlow][3]
+* Configure server using `.htaccess` file
+* Add `.gitignore` file
+* Test each commit using [Code Climate][4]
+* Use [Bower][5] for managing dependencies
+* Footer from [Github Pages][6] [**Cayman**][7] template
+* Use [Initializr][8] for initial setup of `html` -
   * HTML/CSS template
   * HTML5 polyfills -
-    * [HTML5shiv][8]
-    * [Respond.js][9]
+    * [HTML5shiv][9]
+    * [Respond.js][10]
   * Optional -
     * IE classes
     * Old browser warning
-    * [Google Analytics][10]
+    * [Google Analytics][11]
     * `.htaccess`
     * Favicon
     * Windows and Apple icons
@@ -30,13 +30,14 @@ Ideas list -
     * `robots.txt` and `humans.txt`
     * `404` page
 
-[1]:https://www.google.com/webmasters/tools/
-[2]:http://yslow.org/
-[3]:https://codeclimate.com/
-[4]:http://bower.io/
-[5]:https://pages.github.com/
-[6]:http://jasonlong.github.io/cayman-theme/
-[7]:http://www.initializr.com/
-[8]:https://github.com/aFarkas/html5shiv/
-[9]:https://github.com/scottjehl/Respond/
-[10]:https://www.google.com/analytics/
+[1]:http://getbootstrap.com/
+[2]:https://www.google.com/webmasters/tools/
+[3]:http://yslow.org/
+[4]:https://codeclimate.com/
+[5]:http://bower.io/
+[6]:https://pages.github.com/
+[7]:http://jasonlong.github.io/cayman-theme/
+[8]:http://www.initializr.com/
+[9]:https://github.com/aFarkas/html5shiv/
+[10]:https://github.com/scottjehl/Respond/
+[11]:https://www.google.com/analytics/
