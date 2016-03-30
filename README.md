@@ -16,11 +16,13 @@ Ideas list -
 * Footer from Github Pages [Cayman][6] template
 * Use [Initializr][7] for initial setup of `html` -
   * HTML/CSS template
-  * HTML5 polyfills
+  * HTML5 polyfills -
+    * [HTML5shiv][8]
+    * [Respond.js][9]
   * Optional -
     * IE classes
     * Old browser warning
-    * [Google Analytics][8]
+    * [Google Analytics][10]
     * `.htaccess`
     * Favicon
     * Windows and Apple icons
@@ -35,4 +37,6 @@ Ideas list -
 [5]:https://pages.github.com/
 [6]:http://jasonlong.github.io/cayman-theme/
 [7]:http://www.initializr.com/
-[8]:https://www.google.com/analytics/
+[8]:https://github.com/aFarkas/html5shiv/
+[9]:https://github.com/scottjehl/Respond/
+[10]:https://www.google.com/analytics/
