@@ -16,6 +16,9 @@ engines:
     enabled: true
   markdownlint:
     enabled: true
+    exclude_fingerprints:
+    - 5ab721b3ceef47076888b2c9d6d2138b
+    - fd127de9679324370afaa6412e27d77f
 ratings:
   paths:
   - "**.css"
