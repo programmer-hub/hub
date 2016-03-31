@@ -20,4 +20,5 @@ ratings:
   - "**.html"
   - "**.js"
   - "**.md"
-exclude_paths: []
+exclude_paths:
+  - "./bower_components/"
