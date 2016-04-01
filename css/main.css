@@ -5,20 +5,16 @@
     border-right: none;
     position: relative;
     padding: 20px;
-    
 }
 
 video{
-    
     position: absolute;
     z-index: -1;
     opacity: 0.78;
     width: 100%;
-    
 }
 
 .bgvid{
-    
     position: fixed;
     top: 50%;
     left: 50%;
@@ -28,6 +24,9 @@ video{
     height: auto;
     z-index: -100;
     -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     background: url(polina.jpg) no-repeat;
     background-size: cover;
@@ -47,6 +46,4 @@ h3{
     letter-spacing: 3px;
     font-size: 25px;
     font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    
-    
 }
