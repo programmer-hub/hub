@@ -7,31 +7,31 @@ Project for Web UI Course SYBTech@IIITD
 
 Ideas list -
 
-* [Bootstrap][3] for Front-end
-* Use JavaScript, JQuery
-* Basic SEO using `robots.txt` and `sitemap.xml` files, registering on Google
+- [x] [Bootstrap][3] for Front-end
+- [x] Use JavaScript, JQuery
+- [ ] Basic SEO using `robots.txt` and `sitemap.xml` files, registering on Google
 using [Webmaster Tools][4]
-* Test site using [YSlow][5]
-* Configure server using `.htaccess` file
-* Add `.gitignore` file
-* Test each commit using [Code Climate][6]
-* Use [Bower][7] for managing dependencies
-* Footer from [Github Pages][8] [**Cayman**][9] template
-* Use [Initializr][10] for initial setup of `html` -
-  * HTML/CSS template
-  * HTML5 polyfills -
-    * [HTML5shiv][11]
-    * [Respond.js][12]
-  * Optional -
-    * IE classes
-    * Old browser warning
-    * [Google Analytics][13]
-    * `.htaccess`
-    * Favicon
-    * Windows and Apple icons
-    * `plugins.js`
-    * `robots.txt` and `humans.txt`
-    * `404` page
+- [ ] Test site using [YSlow][5]
+- [ ] Configure server using `.htaccess` file
+- [ ] Add `.gitignore` file
+- [x] Test each commit using [Code Climate][6]
+- [x] Use [Bower][7] for managing dependencies
+- [ ] Footer from [Github Pages][8] [**Cayman**][9] template
+- [x] Use [Initializr][10] for initial setup of `html` -
+  - [x] HTML/CSS template
+  - [x] HTML5 polyfills -
+    - [x] [HTML5shiv][11]
+    - [x] [Respond.js][12]
+  - [ ] Optional -
+    - [x] IE classes
+    - [x] Old browser warning
+    - [ ] [Google Analytics][13]
+    - [ ] `.htaccess`
+    - [x] Favicon
+    - [ ] Windows and Apple icons
+    - [x] `plugins.js`
+    - [ ] `robots.txt` and `humans.txt`
+    - [x] `404` page
 
 [1]:https://codeclimate.com/github/programmer-hub/hub
 [2]:https://codeclimate.com/github/programmer-hub/hub
