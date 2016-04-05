@@ -1,0 +1,16 @@
+/* TEAM */
+	Co-Developer and Lead Designer: Divay Prakash
+	Contact: divay14039 [at] iiitd.ac.in
+	From: New Delhi, India
+
+	Co-Developer: Vipin Chaudhary
+	Contact: vipin14119 [at] iiitd.ac.in
+	From: New Delhi, India
+
+/* SITE */
+	Language: English
+	Doctype: HTML5
+	Standards: HTML5, CSS3, JavaScript
+	Components: HTML5shiv, jQuery, Bootstrap
+	Software: Sublime Text, Brackets, Google Chrome, git, Bower
+	Web Tools: GitHub, Code Climate
