@@ -13,6 +13,9 @@ engines:
     enabled: true
   markdownlint:
     enabled: true
+    checks:
+      MD033:
+        enabled: false
     exclude_fingerprints:
     - 5ab721b3ceef47076888b2c9d6d2138b
     - fd127de9679324370afaa6412e27d77f
