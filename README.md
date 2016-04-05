@@ -28,9 +28,10 @@ using [Webmaster Tools][4]
     - [ ] [Google Analytics][13]
     - [ ] `.htaccess`
     - [x] Favicon
-    - [ ] Windows and Apple icons
+    - [x] Windows and Apple icons
     - [x] `plugins.js`
-    - [ ] `robots.txt` and `humans.txt`
+    - [ ] `robots.txt`
+    - [x] `humans.txt`
     - [x] `404` page
 
 [1]:https://codeclimate.com/github/programmer-hub/hub
