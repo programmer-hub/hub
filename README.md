@@ -1,4 +1,4 @@
-# Programmer Hub
+<img src="./images/logo/logo_black.png" width="600" height="100">
 
 [![Code Climate](https://codeclimate.com/github/programmer-hub/hub/badges/gpa.svg)][1]
 [![Issue Count](https://codeclimate.com/github/programmer-hub/hub/badges/issue_count.svg)][2]
