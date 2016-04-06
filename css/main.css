@@ -3,12 +3,10 @@
     background: transparent;
     border-color: transparent;
 }
-
 .navbar li
 {
     color: #000;
 }
-
 
 .header-container{
     width: 100%;
@@ -18,51 +16,28 @@
     position: relative;
     padding: 20px;
 }
-
 .video-container
 {
     position: absolute;
-    top: 0%;
-    left: 0%;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     overflow: hidden;
 }
-
-
 video{
     position: absolute;
     z-index: -1;
     opacity: 0.78;
     width: 100%;
 }
-
-
-h3{
-    color: #3cbc8d;
-    z-index: 1;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 10%;
-    border: 3px solid #ffffff;
-    padding: 10px;
-    border-radius: 15px;
-    width: 700px;
-    letter-spacing: 3px;
-    font-size: 25px;
-    font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
 .temp{
     height: 1000px;
 }
-
 .icon-bar
 {
     background-color: #FFF !important;
 }
-
 .logo{
     width:  1200px;
     max-width: 50%;

@@ -2,6 +2,9 @@
 engines:
   csslint:
     enabled: true
+    checks:
+      important:
+        enabled: false
   duplication:
     enabled: true
     config:
@@ -9,6 +12,11 @@ engines:
       - javascript
   eslint:
     enabled: true
+    checks:
+      no-unused-expressions:
+        enabled: false
+      wrap-iife:
+        enabled: false
   fixme:
     enabled: true
   markdownlint:
