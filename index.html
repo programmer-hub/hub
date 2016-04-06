@@ -33,14 +33,11 @@
     	<![endif]-->
 	</head>
 	<body>
+		<!-- Outdated browser warning -->
+			<!--[if lt IE 8]>
+            	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        	<![endif]-->
         <!-- Navigation -->
-        
-        
-        
-        
-        
-        
-        
         <nav class="navbar navbar-fixed-top" role="navigation">
             <div class="container">
                 <div id="navbar" class="navbar-collapse collapse">
@@ -52,44 +49,29 @@
                 </ul>
                 </div>
             </div>
-            
             <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
         </nav> 
-        
-        
-        
-        <!-- -->
-    <!-- Header -->
-    <div class="header-container">
-        <div class="video-container">
-            <video id="H" preload="true" autoplay="autoplay" loop="loop" volume="0" >
-                <source  src="./video/Productive-Morning.mp4" type="video/mp4">
-                <source  src="./video/Productive-Morning.ogv" type="video/ogv">
-                <source  src="./video/Productive-Morning.webm" type="video/webm">
-            </video>  
-            <img  class="logo" src="./images/logo/logo_white.png">
-        </div>
-        
-    </div>
-        
+    	<!-- Header -->
+    	<div class="header-container">
+        	<div class="video-container">
+            	<video id="H" preload="true" autoplay="autoplay" loop="loop" volume="0" >
+                	<source  src="./video/Productive-Morning.mp4" type="video/mp4">
+                	<source  src="./video/Productive-Morning.ogv" type="video/ogv">
+                	<source  src="./video/Productive-Morning.webm" type="video/webm">
+            	</video>  
+            	<img  class="logo" src="./images/logo/logo_white.png">
+        	</div>
+    	</div>
         <div class="temp">
-        
-            <p>
-            hello
-            </p>    
+            <p>hello</p>    
         </div>
-
-		<!-- Outdated browser warning -->
-		<!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
         <!-- Scripts -->
         <script src="./bower_components/jquery/dist/jquery.min.js"></script>
     	<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -103,20 +85,15 @@
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
             ga('create', 'UA-76075660-1', 'auto');
             ga('send', 'pageview');
-
-
-            
-            
-    $(document).ready(function(){
-      $(window).scroll(function() { // check if scroll event happened
-        if ($(document).scrollTop() > $("#H").innerHeight() ) { // check if user scrolled more than 50 from top of the browser window
-          $(".navbar-fixed-top").css("background-color", "#31989F"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
-        } else {
-          $(".navbar-fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
-        }
-      });
-    });
-            
+    		$(document).ready(function(){
+    			$(window).scroll(function() { // check if scroll event happened
+        			if ($(document).scrollTop() > $("#H").innerHeight() ) { // check if user scrolled more than 50 from top of the browser window
+          				$(".navbar-fixed-top").css("background-color", "#31989F"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+        			} else {
+          				$(".navbar-fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
+        			}
+      			});
+    		});
         </script>
 	</body>
 </html>
