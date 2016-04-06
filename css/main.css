@@ -60,5 +60,13 @@ h3{
 
 .icon-bar
 {
-    color: #FFF;
+    background-color: #FFF !important;
+}
+
+.logo{
+    width:  1200px;
+    max-width: 50%;
+    height: auto;
+    
+        
 }

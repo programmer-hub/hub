@@ -36,57 +36,47 @@
         <!-- Navigation -->
         
         
-        <nav class="navbar  navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" aria-controls="bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar" ></span>
-                    <span class="icon-bar" ></span>
-                    <span class="icon-bar" ></span>
-                </button>
-                <!-- <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a> -->
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services" style="color: #FFF;">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio" style="color: #FFF;">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about" style="color: #FFF;">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team" style="color: #FFF;">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact" style="color: #FFF;">Contact</a>
-                    </li>
+        
+        
+        
+        
+        
+        <nav class="navbar navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
+                </div>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+            
+            <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+        </nav> 
+        
         
         
         <!-- -->
     <!-- Header -->
     <div class="header-container">
         <div class="video-container">
-            <video preload="true" autoplay="autoplay" loop="loop" volume="0" >
-                <source src="./video/Productive-Morning.mp4" type="video/mp4">
-                <source src="./video/Productive-Morning.ogv" type="video/ogv">
-                <source src="./video/Productive-Morning.webm" type="video/webm">
+            <video id="H" preload="true" autoplay="autoplay" loop="loop" volume="0" >
+                <source  src="./video/Productive-Morning.mp4" type="video/mp4">
+                <source  src="./video/Productive-Morning.ogv" type="video/ogv">
+                <source  src="./video/Productive-Morning.webm" type="video/webm">
             </video>  
+        </div>
+        <div >
+            <img  class="logo" src="./images/logo/logo_black.png">
         </div>
     </div>
         
@@ -117,10 +107,9 @@
             
             
             
-    
     $(document).ready(function(){
       $(window).scroll(function() { // check if scroll event happened
-        if ($(document).scrollTop() > 700) { // check if user scrolled more than 50 from top of the browser window
+        if ($(document).scrollTop() > $("#H").innerHeight() ) { // check if user scrolled more than 50 from top of the browser window
           $(".navbar-fixed-top").css("background-color", "#31989F"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
         } else {
           $(".navbar-fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
