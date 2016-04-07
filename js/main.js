@@ -5,10 +5,10 @@
 ga('create', 'UA-76075660-1', 'auto');
 ga('send', 'pageview');
 $(document).ready(function(){
-$(window).scroll(function() { // check if scroll event happened
-if ($(document).scrollTop() > $("#H").innerHeight() ) { // check if user scrolled more than 50 from top of the browser window
-$(".navbar-fixed-top").css("background-color", "#31989F"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
-} else {$(".navbar-fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
+$(window).scroll(function() {
+if ($(document).scrollTop() > $("#H").innerHeight() ) {
+$(".navbar-fixed-top").css("background-color", "#393939");
+} else {$(".navbar-fixed-top").css("background-color", "transparent");
 }
 });
 });
