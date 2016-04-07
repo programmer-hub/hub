@@ -16,7 +16,7 @@ using [Webmaster Tools][4]
 - [ ] Add `.gitignore` file
 - [x] Test each commit using [Code Climate][6]
 - [x] Use [Bower][7] for managing dependencies
-- [ ] Footer from [Github Pages][8] [**Cayman**][9] template
+- [x] Footer from [Github Pages][8] [**Cayman**][9] template
 - [x] Use [Initializr][10] for initial setup of `html` -
   - [x] HTML/CSS template
   - [x] HTML5 polyfills -
@@ -25,7 +25,7 @@ using [Webmaster Tools][4]
   - [ ] Optional -
     - [x] IE classes
     - [x] Old browser warning
-    - [ ] [Google Analytics][13]
+    - [x] [Google Analytics][13]
     - [ ] `.htaccess`
     - [x] Favicon
     - [x] Windows and Apple icons
