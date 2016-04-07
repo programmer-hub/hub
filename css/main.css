@@ -2,11 +2,13 @@
 @media (min-width:768px){ .footer{position:absolute;width:100%;bottom:0;height:100px;} }
 .header-container{
     width: 100%;
-    height: 900px;
+    height: 760px;
     border-left: none;
     border-right: none;
     position: relative;
-    padding: 20px;
+}
+.temp{
+    height: 1000px;
 }
 .video-container
 {
@@ -23,9 +25,6 @@ video{
     opacity: 0.78;
     width: 100%;
 }
-.temp{
-    height: 1000px;
-}
 .icon-bar
 {
     background-color: #FFF !important;
@@ -37,6 +36,7 @@ video{
     margin-top: 25.833333333%;
     margin-left: 2%
 }
+/*
 html {
     position: relative;
     min-height: 100%;
@@ -50,7 +50,7 @@ body {
     width: 100%;
     height: 100px;
     background-color: #393939;
-}
+}*/
 .footer-text {
     color: #FF9900;    
 }
@@ -105,4 +105,11 @@ body {
     width: 100%;
     bottom: 0;
     position: absolute;
+}
+#list{
+  list-style:none;
+  padding:50px 50px 50px 50px;
+}
+#image{
+  cursor: pointer;
 }
