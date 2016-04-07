@@ -98,3 +98,11 @@ body {
 .navbar .navbar-toggle .icon-bar {
     background-color: #CCC;
 }
+.poster {
+    display: block !important;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
