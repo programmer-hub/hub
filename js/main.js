@@ -11,7 +11,7 @@ $(document).ready(function() {
     $('.empty').height($("#H").innerHeight());
     window.onresize = empty;
     $(window).scroll(function() {
-		if ($(document).scrollTop() > $("#H").innerHeight()) {
+		if ($(document).scrollTop() >= $("#H").innerHeight() - 100) {
 			$(".navbar-fixed-top").css("background-color", "#393939");
 		} 
 		else {
