@@ -1,0 +1,13 @@
+Sitemap: http://programmer-hub.github.io/sitemap.xml
+User-agent: *
+Disallow: /bower_components/
+Disallow: /css/
+Disallow: /images/
+Disallow: /js/
+Disallow: /video/
+Disallow: /.codeclimate.yml
+Disallow: /.csslintrc
+Disallow: /.eslintignore
+Disallow: /.eslintrc
+Disallow: /.gitignore
+Disallow: /bower.json
