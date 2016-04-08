@@ -4,3 +4,6 @@
 [![Issue Count](https://codeclimate.com/github/programmer-hub/programmer-hub.github.io/badges/issue_count.svg)][2]
 
 Project for Web UI Course SYBTech@IIITD
+
+[1]:https://codeclimate.com/github/programmer-hub/programmer-hub.github.io
+[2]:https://codeclimate.com/github/programmer-hub/programmer-hub.github.io
