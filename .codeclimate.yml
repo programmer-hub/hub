@@ -5,6 +5,11 @@ engines:
     checks:
       important:
         enabled: false
+      universal-selector:
+        enabled: false
+    exclude_fingerprints:
+    - 848e5919702cf8f6a02651161eb843a1
+    - ae759468e01cd0871d3448db506f4a33
   duplication:
     enabled: true
     config:

@@ -68,21 +68,6 @@ video{
     margin-top: 5%;    
     margin-left: 2%;
 }
-/*
-html {
-    position: relative;
-    min-height: 100%;
-}
-body {
-    margin-bottom: 100px;
-}
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    background-color: #393939;
-}*/
 .footer-text {
     color: #FF9900;    
 }
@@ -91,19 +76,11 @@ body {
   padding: 20px 0;
   background-color: #393939;
 }
-
-/* navbar */
 .navbar{
     background-color: transparent;
     background: transparent;
     border-color: transparent;
 }
-/*
-.navbar li
-{
-    color: #000;
-}*/
-/* link */
 .navbar .navbar-nav > li > a {
     color: #FFF;
 }
@@ -116,7 +93,6 @@ body {
 .navbar .navbar-nav > .active > a:focus {
     color: #FF5A09;
 }
-/* mobile version */
 .navbar .navbar-toggle {
     border-color: #FFF;
 }
