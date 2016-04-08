@@ -41,4 +41,4 @@ ratings:
   - "**.js"
   - "**.md"
 exclude_paths:
-  - "./bower_components/"
+  - "./assets/"
