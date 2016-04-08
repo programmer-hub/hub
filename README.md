@@ -9,11 +9,11 @@ Ideas list -
 
 - [x] [Bootstrap][3] for Front-end
 - [x] Use JavaScript, JQuery
-- [ ] Basic SEO using `robots.txt` and `sitemap.xml` files, registering on Google
+- [x] Basic SEO using `robots.txt` and `sitemap.xml` files, registering on Google
 using [Webmaster Tools][4]
-- [ ] Test site using [YSlow][5]
+- [x] Test site using [YSlow][5]
 - [ ] Configure server using `.htaccess` file
-- [ ] Add `.gitignore` file
+- [x] Add `.gitignore` file
 - [x] Test each commit using [Code Climate][6]
 - [x] Use [Bower][7] for managing dependencies
 - [x] Footer from [Github Pages][8] [**Cayman**][9] template
@@ -30,9 +30,10 @@ using [Webmaster Tools][4]
     - [x] Favicon
     - [x] Windows and Apple icons
     - [x] `plugins.js`
-    - [ ] `robots.txt`
+    - [x] `robots.txt`
     - [x] `humans.txt`
     - [x] `404` page
+- [x] Compress images using [Compressor.io][14]
 
 [1]:https://codeclimate.com/github/programmer-hub/programmer-hub.github.io
 [2]:https://codeclimate.com/github/programmer-hub/programmer-hub.github.io
@@ -47,3 +48,4 @@ using [Webmaster Tools][4]
 [11]:https://github.com/aFarkas/html5shiv/
 [12]:https://github.com/scottjehl/Respond/
 [13]:https://www.google.com/analytics/
+[14]:https://compressor.io/compress
