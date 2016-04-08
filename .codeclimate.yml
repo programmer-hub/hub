@@ -42,3 +42,5 @@ ratings:
   - "**.md"
 exclude_paths:
   - "./bower_components/"
+  - "./css/*.min.css"
+  - "./js/*.min.js"
