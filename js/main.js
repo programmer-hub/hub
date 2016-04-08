@@ -8,7 +8,9 @@
 ga('create', 'UA-76075660-1', 'auto');
 ga('send', 'pageview');
 $(document).ready(function() {
-	$(window).scroll(function() {
+    $('.empty').height($("#H").innerHeight());
+    window.onresize = empty;
+    $(window).scroll(function() {
 		if ($(document).scrollTop() > $("#H").innerHeight()) {
 			$(".navbar-fixed-top").css("background-color", "#393939");
 		} 
@@ -17,6 +19,9 @@ $(document).ready(function() {
 		}
 	});
 });
+function empty(){
+    $('.empty').height($("#H").innerHeight());
+}
 $(document).ready(function(){
    $('li img').on('click',function(){
         var src = $(this).attr('src');
