@@ -25,9 +25,6 @@
     border-right: none;
     position: relative;
 }
-.temp{
-    height: 1000px;
-}
 .video-container
 {
     position: absolute;
@@ -53,6 +50,13 @@ video{
     height: auto;
     margin-top: 25.833333333%;
     margin-left: 2%
+}
+.logo1{
+    width:  1200px;
+    max-width: 50%;
+    height: auto;
+    margin-top: 5%;    
+    margin-left: 2%;
 }
 /*
 html {
@@ -83,11 +87,6 @@ body {
     background-color: transparent;
     background: transparent;
     border-color: transparent;
-}
-.header_image{
-    max-width:100%;
-    max-height:100%;
-    padding: 0 0 0 0;
 }
 /*
 .navbar li
